@@ -66,7 +66,7 @@
                     <!-- End Right sidebar -->
                     <!-- ============================================================== -->
                 </div>
-                <Footer></Footer>  
+                <footer-component></footer-component>  
             </div>
             <!-- ============================================================== -->
             <!-- End Page wrapper  -->
@@ -81,7 +81,6 @@
 <script>
 
 import HeaderComponent from './shared/HeaderComponent'
-import NavbarComponent from './shared/NavbarComponent'
 import LeftSidebarComponent from './shared/LeftSidebarComponent'
 import RightSidebarComponent from './shared/RightSidebarComponent'
 import FooterComponent from './shared/FooterComponent'
@@ -90,7 +89,6 @@ import FooterComponent from './shared/FooterComponent'
 export default {
     components:{
         HeaderComponent,
-        NavbarComponent,
         LeftSidebarComponent,
         RightSidebarComponent,
         FooterComponent
