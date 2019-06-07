@@ -7,14 +7,14 @@
             <!-- ============================================================== -->
             <!-- Topbar header - style you can find in pages.scss -->
             <!-- ============================================================== -->
-            <Header></Header>
+            <header-component></header-component>
             <!-- ============================================================== -->
             <!-- End Topbar header -->
             <!-- ============================================================== -->
             <!-- ============================================================== -->
             <!-- Left Sidebar - style you can find in sidebar.scss  -->
             <!-- ============================================================== -->
-            <left-sidebar></left-sidebar>
+            <left-sidebar-component></left-sidebar-component>
             <!-- ============================================================== -->
             <!-- End Left Sidebar - style you can find in sidebar.scss  -->
             <!-- ============================================================== -->
@@ -53,8 +53,7 @@
                     <!-- ============================================================== -->
                     <!-- Start Page Content -->
                     <!-- ============================================================== -->
-                    
-
+                    <router-view></router-view>
                     <!-- ============================================================== -->
                     <!-- End PAge Content -->
                     <!-- ============================================================== -->
@@ -62,7 +61,7 @@
                     <!-- Right sidebar -->
                     <!-- ============================================================== -->
                     <!-- .right-sidebar -->
-                    <right-sidebar></right-sidebar>
+                    <right-sidebar-component></right-sidebar-component>
                     <!-- ============================================================== -->
                     <!-- End Right sidebar -->
                     <!-- ============================================================== -->
@@ -81,20 +80,20 @@
 
 <script>
 
-import Header from './shared/Header'
-import Navbar from './shared/Navbar'
-import LeftSidebar from './shared/LeftSidebar'
-import RightSidebar from './shared/RightSidebar'
-import Footer from './shared/Footer'
+import HeaderComponent from './shared/HeaderComponent'
+import NavbarComponent from './shared/NavbarComponent'
+import LeftSidebarComponent from './shared/LeftSidebarComponent'
+import RightSidebarComponent from './shared/RightSidebarComponent'
+import FooterComponent from './shared/FooterComponent'
 
+//Pages Components
 export default {
-    
     components:{
-        Header,
-        Navbar,
-        LeftSidebar,
-        RightSidebar,
-        Footer
+        HeaderComponent,
+        NavbarComponent,
+        LeftSidebarComponent,
+        RightSidebarComponent,
+        FooterComponent
     }
 }
 

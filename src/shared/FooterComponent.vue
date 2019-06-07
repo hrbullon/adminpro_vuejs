@@ -6,6 +6,7 @@
 
 <script>
 export default {
+    name: 'Footer',
     data(){
         return {
             year: '2019'

@@ -8,9 +8,10 @@
 
 <script>
 
-import Navbar from './Navbar'
+import Navbar from './NavbarComponent'
 
 export default {
+    name:'Header',
     components:{
         Navbar
     }

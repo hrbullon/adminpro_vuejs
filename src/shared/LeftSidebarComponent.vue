@@ -218,3 +218,9 @@
         </aside>
     </div>
 </template>
+
+<script>
+export default {
+    name:'left-sidebar-component'
+}
+</script>
